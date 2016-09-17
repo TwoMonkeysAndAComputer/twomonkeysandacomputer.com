@@ -4,7 +4,7 @@ body, h1, p {
 }
 
 body {
-  background: #333 url(background.jpg) no-repeat center center fixed;
+  background: #333 url(background.png) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   font-family: 'Helvetica', sans-serif;
@@ -12,8 +12,11 @@ body {
 }
 
 body > div {
-  padding: 3em;
   text-align: center;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 header {
@@ -47,14 +50,7 @@ p {
 @media (min-width: 600px) {
 
   body > div {
-    width: 30em;
-  }
-
-  body > div {
-    left: 50%;
-    position: fixed;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    width: 29em;
   }
 
 }
