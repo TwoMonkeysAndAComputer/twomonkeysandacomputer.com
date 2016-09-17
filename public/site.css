@@ -11,10 +11,15 @@ body {
   font-size: 120%;
 }
 
+body > div {
+  padding: 3em;
+  text-align: center;
+}
+
 header {
   color: #cf0000;
-  font-weight: bold;
   margin-bottom: 1em;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -23,18 +28,14 @@ h1 {
   text-transform: lowercase;
 }
 
-body > div {
-  padding: 3em;
-  text-align: center;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
+a:active,
 a:hover {
-  color: #cf0000;
+  color: #ffdf00;
   text-decoration: underline;
 }
 
