@@ -15,7 +15,7 @@ body, h1, p {
 }
 
 body {
-  background: #333 url(/images/background.png)  no-repeat center center fixed;
+  background: #333 url(/images/background.jpg)  no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   font-family: 'Helvetica', sans-serif;
