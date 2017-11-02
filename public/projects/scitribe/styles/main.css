@@ -1,0 +1,36 @@
+.blue {
+    background-color: #29aae3;
+}
+
+.light-brown {
+    background-color: #c79c6f;
+}
+
+.dark-brown {
+    background-color: #8c6337;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 4em auto 0 auto;
+    text-align: center;
+}
+
+header>div {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+a {
+    color: #8c6337;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #c79c6f;
+    text-decoration: underline;
+}
