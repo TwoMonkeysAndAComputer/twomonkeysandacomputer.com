@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: #333 url(/images/background.jpg) no-repeat center center fixed;
+  background: #333 url(/images/background-mobile.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   font-family: 'Helvetica', sans-serif;
@@ -17,8 +17,6 @@ body {
 main {
   flex-grow: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 p {
@@ -30,6 +28,7 @@ footer {
   align-self: flex-end;
   font-size: 1.5em;
   line-height: 2em;
+  margin-bottom: 1rem;
   text-align: center;
   width: 100%;
 }
@@ -46,8 +45,9 @@ footer a:hover {
 }
 
 header {
-  text-align: center;
   color: #cf0000;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 h1 {
@@ -56,4 +56,15 @@ h1 {
   font-weight: bold;
   text-transform: lowercase;
   margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+      background-image: url('/images/background.jpg');
+    }
+
+    main {
+      align-items: center;
+      justify-content: center;
+    }
 }
