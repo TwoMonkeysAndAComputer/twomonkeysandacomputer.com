@@ -19,6 +19,20 @@ main {
   display: flex;
 }
 
+header {
+  color: #9B1C0B;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin: 0;
+}
+
 p {
   font-size: 1.5em;
   margin: 0;
@@ -40,31 +54,12 @@ footer a {
 
 footer a:active,
 footer a:hover {
-  color: #af0000;
+  color: #9B1C0B;
   text-decoration: underline;
-}
-
-header {
-  color: #cf0000;
-  margin-top: 2rem;
-  text-align: center;
-}
-
-h1 {
-  color: #fff;
-  font-size: 2.5em;
-  font-weight: bold;
-  text-transform: lowercase;
-  margin: 0;
 }
 
 @media screen and (min-width: 500px) {
     body {
       background-image: url('/images/background.jpg');
-    }
-
-    main {
-      align-items: center;
-      justify-content: center;
     }
 }
