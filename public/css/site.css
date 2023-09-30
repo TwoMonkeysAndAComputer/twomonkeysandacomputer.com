@@ -27,10 +27,11 @@ header {
 
 h1 {
   color: #fff;
-  font-size: 2.5em;
+  font-size: 4em;
   font-weight: bold;
   text-transform: lowercase;
   margin: 0;
+  max-width: 500px;
 }
 
 p {
@@ -61,5 +62,11 @@ footer a:hover {
 @media screen and (min-width: 500px) {
     body {
       background-image: url('/images/background.jpg');
+    }
+    h1 {
+      font-size: 4em;
+    }
+    footer {
+      font-size: 2em;
     }
 }
