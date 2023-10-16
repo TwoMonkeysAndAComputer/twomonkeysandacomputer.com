@@ -27,11 +27,11 @@ header {
 
 h1 {
   color: #fff;
-  font-size: 4em;
+  font-size: 2.3em;
   font-weight: bold;
   text-transform: lowercase;
   margin: 0;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 p {
@@ -64,9 +64,12 @@ footer a:hover {
       background-image: url('/images/background.jpg');
     }
     h1 {
-      font-size: 4em;
+      margin-top: 0.7em;
+      font-size: 3.2em;
+      max-width:100%;
     }
     footer {
+      margin-bottom:0;
       font-size: 2em;
     }
 }
